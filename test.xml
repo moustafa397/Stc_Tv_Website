@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite  name="STC TV Regression suite">
+    <parameter name="browser" value="firefox"></parameter>
+    <test name="Regression Test">
+
+        <classes>
+            <class name="tests.PackageArTest"/>
+            <class name="tests.PackageEnTest"/>
+        </classes>
+
+
+    </test>
+
+
+
+</suite>
